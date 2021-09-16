@@ -11,7 +11,8 @@ body {
 .card {
     background: white;
     position:absolute;
-    max-width: 420px;
+    min-width: 320px;
+    max-width: 400px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -26,7 +27,7 @@ body {
 
 .image {
     border-radius: 24px 24px 0 0;
-    max-width: 420px;
+    width: 100%;
 }
 
 .info {
@@ -62,6 +63,7 @@ body {
 
 .planName {
     width: 50%;
+    margin-left: 8px;
     color: grey
 }
 
