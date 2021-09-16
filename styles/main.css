@@ -84,7 +84,14 @@ a {
     font-weight: 700;
     border-radius: 16px;
     text-align: center;
+    transition: box-shadow 2s cubic-bezier(.165, .84, .44, 1);
 }
+
+.primary-button:hover,
+.primary-button:focus {
+  box-shadow: 0 2px 24px 2px hsla(0, 0%, 0%, 0.377);
+}
+
 
 .secondary-button {
     color: grey;
